@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" >
+<head>
+<script type="text/javascript"> 
+<!-- 
+
+var firstTime = true;
+
+function MM_jumpMenuGo(objId, targ, restore){ //v9.0 
+var selObj = null; with (document) { 
+if (getElementById) selObj = getElementById(objId); 
+// if (selObj) eval(targ+".location='"+selObj.options[selObj.selectedIndex].value+"'"); 
+if (restore) selObj.selectedIndex=0; } 
+// l'url du fichier mp3 du flux
+var url = selObj.options[selObj.selectedIndex].value;
+// on repère l'objet audio de la page
+var aud = document.getElementById("lecteur");
+// on met en pause une éventuelle lecture
+aud.pause();
+// si c'est la première fois, on impose un volume pas trop fort
+if(firstTime == true){
+aud.volume = 0.5;
+firstTime = false;
+} // End If
+// et on change le fichier en cours de lecture
+aud.src = url;
+
+} // end function
+
+function MM_jumpMenu_KeyDown(e){
+// enter
+if(e.keyCode == 13){
+e.preventDefault();
+document.getElementById("go_button").click();
+return false;
+} // End If
+} // End Function
+
+function btPlayPause_Click(e){
+//
+var aud = document.getElementById("lecteur");
+if(aud.paused == true){
+aud.play();
+} else {
+aud.pause();
+} // End If
+// pour actualiser le label du bouton
+var bt = document.getElementById("btPlayPause");
+window.setTimeout(function(){
+if(aud.paused == true){
+bt.innerText = "Play";
+} else {
+bt.innerText = "Pause";
+} // End If
+}, 1000);
+} // End Function
+
+function btVolumeUp_Click(e){
+//
+var aud = document.getElementById("lecteur");
+var v = aud.volume + 0.1;
+if(v > 1){
+v = 1
+} // End If
+aud.volume = v;
+//
+saystring("Volume " + parseInt(v * 100) + "%");
+} // End Function
+
+function btVolumeDown_Click(e){
+//
+var aud = document.getElementById("lecteur");
+var v = aud.volume - 0.1;
+if(v > 1){
+v = 1
+} // End If
+aud.volume = v;
+//
+saystring("Volume " + parseInt(v * 100) + "%");
+} // End Function
+
+function saystring(s){
+// fonction d'accessibilité
+// qui fait dire du texte par la synthèse vocale active
+// en utilisant les balises d'accessibilité aria.
+//
+//o s'assure d'abord que les variables globales nécessaires ont bien été créées
+if(this.compteur_yyd == null){
+this.compteur_yyd = 0;
+this.message_yyd = "";
+this.timeout_yyd = 0;
+} // end if
+//
+var elm;
+var difference = "";
+// on arrête un éventuel timer de ramasse miette
+window.clearTimeout(this.timeout_yyd);
+// on trouve la zone d'affichage du texte
+elm = document.getElementById("message_to_say_yyd");
+if(elm == null){ // non encore existante
+// on crée cette zone
+elm = document.createElement("div");
+elm.setAttribute("id", "message_to_say_yyd");
+elm.setAttribute("aria-live", "assertive");
+elm.setAttribute("aria-atomic", "true");
+elm.setAttribute("style", "width: 0%;height: 0%;");
+// on l'ajoute à la fin de la balise body
+document.getElementsByTagName("body")[0].appendChild(elm);
+// document.body.appendChild(elm);
+} // fin si zone du texte non encore existante
+// si chaîne vide
+if(s.trim() == ""){
+return;
+} // End If
+// si la zone a été repérée
+if(elm != null){
+// si le nouveau message est strictement identique à l'ancien
+if(s == this.message_yyd){
+// on va forcer un élément de différence
+this.compteur_yyd = this.compteur_yyd + 1;
+difference = " " + "-".repeat(this.compteur_yyd);
+} else { // c'est vraiment un nouveau message
+this.compteur_yyd = 0; // réinitialisation
+} // end if
+elm.innerText = "";
+elm.innerText = s + difference;
+} // end if elm non null
+// enregistrement de ce message en mémoire
+this.message_yyd = s
+// on va programmer l'effacement du texte dans une demi seconde
+var clearSaidMessage = function(){
+document.getElementById("message_to_say_yyd").innerText = "";
+};
+this.timeout_yyd = window.setTimeout(clearSaidMessage, 500);
+} // end function
+
+//--> 
+</script> 
+
+</head>
+<button><a href="index.html">Retour page d'accueil</a></button>
+<title>
+Chants a la demande
+</title>
+<body>
+<bgcolor = "black" text = "white" alink ="light white">
+<div id="header">
+<h1 class="title">Chants a la demande</h1>
+</div>
+<label for="Flux">Ici choisissez le chant que vous voulez écouter</label><br />
+Appuyer sur la "barre d'espace" ou la touche "entrée" pour activer  la liste déroulante<br />
+Utilisez les touches fléchées pour vous déplacer dans la liste déroulante<br />
+Pour écouter un chant validez sur l'oiseau de votre choix en appuyant sur "entrée"<br />
+Pour quitter la liste déroulante, il vous suffit de faire "échap"<br />
+<FORM>
+<select name="jumpMenu" id="jumpMenu" onkeydown="MM_jumpMenu_KeyDown(event);"> 
+<option value="alouette.mp3">L'alouette des champs</option>
+<option value="mouchet.mp3">L'accenteur mouchet</option>
+<option value="steppes.mp3">L'aigle des steppes</option>
+<option value="aigleimperial.mp3">L'Aigle Impérial</option>
+<option value="aigleroyal.mp3">L'Aigle royale</option>
+<option value="garzette.mp3">L'aigrette garzette</option>
+<option value="autourdespalombes.mp3">L'Autour des palombes</option>
+<option value="feroce.mp3">La buse féroce</option>
+<option value="busevariable.mp3">La buse variable</option>
+<option value="beccroise.mp3">Le bec croisé des sapins</option>
+<option value="bergeronnette.mp3">La Bergeronnette grise</option>
+<option value="bernache.mp3">La bernache du Canada</option>
+<option value="bouvreuil.mp3">Le bouvreuil pivoine</option>
+<option value="bruantdesneiges.mp3">Le bruant des neiges</option>
+<option value="bruantjaune.mp3">Le bruant jaune</option>
+<option value="ortolan.mp3">Le bruant ortolan</option>
+<option value="zizi.mp3">Le bruant zizi</option>
+<option value="col-vert.mp3">Le canard col-vert</option>
+<option value="canaris.mp3">Les canaris</option>
+<option value="chardonneret.mp3">Le chardonneret</option>
+<option value="chouetteeffraie.mp3">La Chouette effraie</option>
+<option value="hulotte.mp3">La Chouette hulotte</option>
+<option value="etourneau.mp3">L'étourneau sansonnet</option>
+<option value="faucon.mp3">Le Faucon crécerelle</option>
+<option value="babillarde.mp3">La Fauvette babillarde</option>
+<option value="fauvette.mp3">La Fauvette des jardins</option>
+<option value="coucou.mp3">Le coucou gris</option>
+<option value="gobemouche.mp3">Le gobe mouche noir</option>
+<option value="geai.mp3">Le Geai des chênes</option>
+<option value="duc.mp3">Le Grand duc</option>
+<option value="grive.mp3">La Grive musicienne</option>
+<option value="draine.mp3">La Grive draine</option>
+<option value="litorne.mp3">La Grive litorne</option>
+<option value="bec.mp3">Le gros bec casse noyeaux</option>
+<option value="jaune.mp3">La linotte à bec jaune</option>
+<option value="linotte.mp3">La linotte mélodieuse</option>
+<option value="loriot.mp3">Le loriot</option>
+<option value="martin.mp3">Le martin pêcheur</option>
+<option value="merlenoir.mp3">Le merle noir</option>
+<option value="mesange.mp3">La Mésange bleue</option>
+<option value="charbonniere.mp3">La Mésange charbonnière</option>
+<option value="pinson.mp3">Le Pinson des arbres</option>
+<option value="pinson.n.mp3">Le Pinson du Nord</option>
+<option value="ramier.mp3">Le Pigeon ramier</option>
+<option value="picepeiche.mp3">Le Pic épeiche</option>
+<option value="pouillotboreal.mp3">Le Pouillot boréal</option>
+<option value="pouillotsiffleur.mp3">Le Pouillot siffleur</option>
+<option value="roitelethuppe.mp3">Le Roitelet huppé</option>
+<option value="rossignol.mp3">Le Rossignol</option>
+<option value="cini.mp3">Le Serin cini</option>
+<option value="torchepot.mp3">La sittelle torchepot</option>
+<option value="flamme.mp3">Le Sizerin flammé</option>
+<option value="tourterelle.mp3">La tourterelle des bois</option>
+<option value="tourterelleturque.mp3">La tourterelle turque</option>
+<option value="tarin.mp3">Le Tarin des aulnes</option>
+<option value="verdier.mp3">Le Verdier</option>
+</select> 
+</form> 
+
+<input type="button" name="go_button" id= "go_button" value="Aller" onclick="MM_jumpMenuGo('jumpMenu','parent',0)" /> 
+
+<h3>
+Lecteur
+</h3>
+
+<div>
+<audio id="lecteur" autoplay=autoplay  preload="auto" aria-live="off">
+</audio>
+
+<p>
+<button id="btPlayPause" onclick="btPlayPause_Click(event);">
+Pause
+</button>
+<button onclick="btVolumeUp_Click(event);">
+Volume+
+</button>
+<button onclick="btVolumeDown_Click(event);">
+Volume-
+</button>
+</p>
+</div>
+
+<hr>
+<p>
+<a href="index.html">Retour page d'accueil</a><br />
+</p>
+</BODY>
+</HTML>
