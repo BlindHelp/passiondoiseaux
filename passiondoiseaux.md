@@ -1,10 +1,10 @@
 ---
-title: Passion d'oiseaux
-permalink: "/Passion d'oiseaux/"
+title: passiondoiseaux
+permalink: "/passiondoiseaux/"
 layout: page
 ---
 
 ### Information de contact ###
-* [GitHub](https://blindhelp.github.io/Passion d'oiseaux)
+* [GitHub](https://blindhelp.github.io/passiondoiseaux)
 * [Courriel](mailto:remyruiz@gmail.com)
 

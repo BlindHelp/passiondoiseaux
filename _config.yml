@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-name: Passion d'oiseaux
+name: passiondoiseaux
 description:  Passion d'oiseaux page dédié aux plumes qui chantent, une œuvre de Guy Vandelaer.
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 twitter_username: Blindhelp38
@@ -48,8 +48,8 @@ exclude:
 - README.md
 - CNAME
 authors:
-  Passion d'oiseaux:
-    name: Passion d'oiseaux
-    display_name: Passion d'oiseaux
+  passiondoiseaux:
+    name: passiondoiseaux
+    display_name: passiondoiseaux
     web: https://blindhelp.github.io/passiondoiseaux
 issues_repo: BlindHelp/passiondoiseaux
