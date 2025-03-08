@@ -1,0 +1,131 @@
+Passion d'oiseaux
+
+Salut à tous,
+
+Après avoir constaté l'engouement de certains pour les plumes qui chantent, j'ai ressortis le site Passion d'oiseaux que j'avais fait dans le cadre d'une formation avec notre regretté Philippe Boulanger.
+
+J'ai largement épuré le site pour en faire plutôt un annuaire.
+
+Je vais donc vous présenter ici différentes espèces d'oiseaux sous forme de fiches où vous retrouvrez les mœurs, l'habitat, l'alimentation etc à chaque page qui s'ouvrira. Je m'efforcerai d'y inclure une séquence de chant. Je vous souhaite une bonne navigation et beaucoup de plaisir parmi ces pages de l'annuaire Passion d'oiseaux.
+
+Guide de l'utilisateur de Passion d'oiseaux
+
+Une fois l'archive intitulé passion d'oiseaux.zip téléchargé à partir d'un lien externe (non via un lien GitHub), il vous suffit d'extraire son contenu dans un dossier intitulé passion d'oiseaux, par exemple, vous pouvez mettre celui-ci dans mes documents ou n'importe où sur votre ordinateur.
+
+Cependant si vous avez téléchargé l'archive intitulé main.zip à partir du lien GitHub rattaché au repo appelé passiondoiseaux
+https://github.com/BlindHelp/passiondoiseaux/archive/refs/heads/main.zip
+Ce lien téléchargera tous les contenus du dépôt passiondoiseaux de GitHub
+Une fois téléchargé l'archive :
+main.zip
+S'il vous plaît, extraire ce fichier.
+Ensuite, vous devrait récupérer le dossier appelé:
+passion-oiseaux
+Il vous suffira de le copier et le coller puis vous pouvez mettre celui-ci dans mes documents ou n'importe où sur votre ordinateur.
+Ce dossier contient la dernière mise à jour faite par mes soins.
+Le reste est le contenu du squelette du dépôt passiondoiseaux de GitHub, qui ne vous servira pas du tout.
+Donc, il faut  l'envoyer à la Corbeille !
+Puis le supprimer !
+
+Quelques recommandations pour les personnes qui ont téléchargé et décompressé ledit fichier :
+Je vous prie instamment de ne pas modifier le contenu des fichiers ou de changer l'emplacement des fichiers qui est celui du dossier par défaut Pour une utilisation optimale.
+
+Lorsque vous l'avez extrait, ouvrez le dossier intitulé passion d'oiseaux ou passion-oiseaux, placez vous sur le fichier intitulé index.html ou appuyez sur la lettre i puis faire entrée
+
+Une fois ce fichier index.html ouvert, au début de cette page, vous trouverez le premier titre comme nom :
+titre niveau 1 Sommaire Passion d'oiseaux
+ensuite vous trouverez le bouton Lire pour lancer le son attribué à cette page.
+
+Faire barre d'espace pour lire ou mettre en pause le dite son.
+
+Ensuite vous aurez le deuxième titre comme nom :
+titre niveau 1 Passion d'oiseaux
+
+Si vous naviguez en utilisant la flèche basse, vous trouverez les liens liés aux pages qui contiennent les sujets suivants :
+À propos de moi
+Une fois cette page ouverte, vous pouvez savoir quelque chose de plus sur moi, le créateur de Passion d'oiseaux mais ça date déjà un peu.
+
+Lorsque vous êtes sur la page Qui suis-je ? pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche
+
+Conseils de navigation avec la revue d'écran Jaws / NVDA
+Une fois cette page ouverte, vous trouverez quelques instructions d'utilisation pour une meilleure convivialité avec ces lecteurs d'écran.
+
+Lorsque vous êtes sur la page Conseils de navigation avec la revue d'écran Jaws / NVDA pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche
+
+Contactez-moi si vous le souhaitez, juste pour me faire un petit coucou
+Une fois cette page ouverte, vous trouverez un lien pour envoyer un message au créateur de passion d'oiseaux (copier l'adresse e-mail)
+
+Lorsque vous êtes sur la page Envoyez-moi un e-mail Si vous le souhaitez, juste pour me faire un petit coucou pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche
+
+Ici quelques chants a la demande
+Une fois cette page ouverte, vous trouverez le premier titre comme nom :
+titre niveau 1 Chants a la demande
+Sous ce titre Vous trouverez les instructions pour son utilisation.
+
+Mais ici, je mets d'autres instructions Un peu plus étendu si vous utilisez un lecteur d'écran lors de la navigation sur la liste déroulante  contenant les Chants a la demande :
+
+Pour les personnes qui ont le lecteur d'écran NVDA vous devez passer en mode formulaire en faisant:
+NVDA+Espace, activer et désactiver le mode formulaire automatique; Si vous avez sélectionné le mode formulaire manuel, voici 2 commandes à connaître:
+Entrée, Activer le champ de formulaire;
+Échappement, désactiver le champ de formulaire.
+Pour les personnes qui ont le lecteur d'écran Jaws vous devez passer en mode formulaire en faisant:
++ du pavé numérique ou Entrée. Pour quitter le mode Formulaire, appuyez sur + du pavé numérique ou ÉCHAP.
+Dans les deux cas de figure une fois activée la liste déroulante il vous permet de sélectionner un des chants de l'oiseau figurant dans cette liste à l'aide des touches fléchées alors il suffit d'appuyer sur Entrée pour lancer le son de l'oiseau.
+Ceci m'a aisément permis de passer en revue tous les sons des oiseaux répertoriés disponibles, juste en me servant d'une main.
+Maintenant, plus forcément besoin de se rendre au bouton Aller pour lancer le son de l'oiseau.
+Dans les deux cas de figure une fois désactiver le mode formulaire après le titre de niveau 3 appelé :
+Lecteur
+vous trouverez trois boutons pour:
+Mettre play/pause;
+Augmenter le volume;
+Diminuer le volume.
+
+Sur cette page, j'avais oublié de spécifier dans les instructions d'utilisation que si vous tabulez vous trouverez Le deuxième titre comme nom :
+titre niveau 3  Lecteur
+
+Lorsque vous êtes sur la page Chants a la demande pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche
+
+Bonne écoute.
+
+Quelques plantes pour nos oiseaux
+Le lien Quelques plantes pour nos oiseaux vous amènera à la page intitulée : Plantes sauvages, ici vous trouverez les liens pour consulter les différentes plantes sauvages répertoriées sur cette page.
+
+Lorsque vous êtes sur la page Plantes sauvages pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche
+
+Lorsque vous êtes sur une page de l'une des plantes sauvages pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche trois fois.
+
+Quelques maladies de nos oiseaux
+Le lien Quelques maladies de nos oiseaux vous amènera à la page intitulée : Quelques maladies de nos oiseaux, ici vous trouverez les maladies répertoriées qui attaquent nos oiseaux et vous pouvez consulter sur cette page les différentes solutions pour les guérir.
+
+Lorsque vous êtes sur la page Quelques maladies de nos oiseaux pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche
+
+Sous ce lien Quelques maladies de nos oiseaux  vous trouverez une flopée de liens qui répertorient les oiseaux, faire entrée dans l'un de ces liens pour consulter Le fichier dédié à ce oiseau.
+Une fois le lien de l'oiseau à consulter ouvert, Vous trouverez le bouton Lire pour lancer le son attribué à ce oiseau.
+
+Faire barre d'espace pour lire ou mettre en pause le dite son.
+
+Une fois ouverte la page souhaitée, servez vous des flèches haut/bas pour lire le contenu De cette page et utilisez la touche prévue par votre lecteur d'écran (lettre t pour JAWS ou h pour NVDA) pour aller de titre en titres.
+
+Lorsque vous êtes sur une page d'Un des oiseaux pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche trois fois.
+
+Lorsque vous consultez certaines pages, vous aurez le son associé à la page (par exemple, cela peut être un son de bruitage, Dans les pages avec le nom de l'oiseau, vous aurez le son de l'oiseau associé)
+
+Dans le cas du son des oiseaux dans chaque page html, j'ai  précédé la phrase:
+Son cri :
+avant le bouton "Lyre"
+
+Dans le cas de l'effet sonore de la page dans chaque page html Où il y a un bruitage, j'ai  précédé la phrase:
+Effet sonore de la page :
+avant le bouton "Lyre"
+
+Parmi les raretées, vous trouverez également un lien appelé :
+Le clin d'œil à mon formateur (Le Rochefortus)
+
+Voilà, je pense avoir fait le tour de comment utiliser l'annuaire Passion d'oiseaux hors ligne
+
+Vous avez également la possibilité de consulter ce même annuaire en ligne
+
+Lien pour la page Sommaire Passion d'oiseaux (index.html) sur le dépôt passiondoiseaux sur GitHub
+https://blindhelp.github.io/passiondoiseaux/passion-oiseaux/index.html
+
+En espèrant vous faire partager ma passion je vous souhaite beaucoup de plaisir sur cet annuaire dédié aux plumes qui chantent.
+Enjoy ! 👍
