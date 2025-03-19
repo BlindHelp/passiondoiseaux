@@ -46,6 +46,12 @@ Une fois cette page ouverte, vous pouvez savoir quelque chose de plus sur moi, l
 
 Lorsque vous êtes sur la page Qui suis-je ? pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche
 
+Adresses Web des références externes
+Une fois cette page ouverte, vous pouvez connaître les références externes utilisés comme support pédagogique lors de la création des fiches pour cet annuaire Passion d'oiseaux.
+
+Lorsque vous êtes sur la page Références externes sans ouvrir un lien externe fourni sur cette page pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche
+Sauf si vous êtes allé consulter un lien externe fourni sur cette page qui s'ouvrira dans une nouvelle fenêtre dans votre navigateur Web
+
 Conseils de navigation avec la revue d'écran Jaws / NVDA
 Une fois cette page ouverte, vous trouverez quelques instructions d'utilisation pour une meilleure convivialité avec ces lecteurs d'écran.
 
