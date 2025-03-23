@@ -8,7 +8,14 @@ J'ai largement épuré le site pour en faire plutôt un annuaire.
 
 Je vais donc vous présenter ici différentes espèces d'oiseaux sous forme de fiches où vous retrouvrez les mœurs, l'habitat, l'alimentation etc à chaque page qui s'ouvrira. Je m'efforcerai d'y inclure une séquence de chant. Je vous souhaite une bonne navigation et beaucoup de plaisir parmi ces pages de l'annuaire Passion d'oiseaux.
 
+Remarque : Dans ce document, une terminologie spécifique a été adoptée pour les utilisateurs qui utilisent des aides informatiques pour les personnes aveugles.
+
 Guide de l'utilisateur de Passion d'oiseaux
+
+Auteur : passiondoiseaux
+Dernière modification : Dimanche 23 Mars 2025
+
+Pour commencer
 
 Une fois l'archive intitulé passion d'oiseaux.zip téléchargé à partir d'un lien externe (non via un lien GitHub), il vous suffit d'extraire son contenu dans un dossier intitulé passion d'oiseaux, par exemple, vous pouvez mettre celui-ci dans mes documents ou n'importe où sur votre ordinateur.
 
@@ -22,6 +29,10 @@ Ensuite, vous devrait récupérer le dossier appelé:
 passion-oiseaux
 Il vous suffira de le copier et le coller puis vous pouvez mettre celui-ci dans mes documents ou n'importe où sur votre ordinateur.
 Ce dossier contient la dernière mise à jour faite par mes soins.
+À ce même niveau se trouve le fichier appelé:
+Lisezmoi.txt
+Vous pouvez également le récupérer puis le copier et le coller puis vous pouvez mettre celui-ci dans mes documents ou n'importe où sur votre ordinateur conjointement avec le dossier susmentionné.
+Ce fichier contient la dernière mise à jour faite par mes soins.
 Le reste est le contenu du squelette du dépôt passiondoiseaux de GitHub, qui ne vous servira pas du tout.
 Donc, il faut  l'envoyer à la Corbeille !
 Puis le supprimer !
@@ -51,6 +62,12 @@ Une fois cette page ouverte, vous pouvez connaître les références externes ut
 
 Lorsque vous êtes sur la page Références externes sans ouvrir un lien externe fourni sur cette page pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche
 Sauf si vous êtes allé consulter un lien externe fourni sur cette page qui s'ouvrira dans une nouvelle fenêtre dans votre navigateur Web
+
+Moteur de recherche
+Une fois cette page ouverte, vous pouvez faire une recherche d'un oiseaux en dehors de l'annuaire De nos oiseaux
+
+Lorsque vous êtes sur la page Moteur de recherche Sans faire de recherche  en utilisant l'un des moteurs de recherche fourni sur cette page pour revenir au sommaire Passion d'oiseaux (index.html), il vous suffit de faire alt + flèche gauche
+Sauf si vous avez fait une recherche d'un oiseau à l'aide de l'un des moteurs de recherche fourni sur cette page qui s'ouvrira dans votre navigateur Web
 
 Conseils de navigation avec la revue d'écran Jaws / NVDA
 Une fois cette page ouverte, vous trouverez quelques instructions d'utilisation pour une meilleure convivialité avec ces lecteurs d'écran.
